@@ -1,0 +1,16 @@
+name: Coingecko External Adapter
+description: Adapter to connect the Coingecko API to Chainlink nodes
+node_identifier: coingecko-ea
+platforms:
+  - Docker
+  - AWS Lambda
+  - GCP Functions
+data_sources:
+  - name: Coingecko
+    url: https://coingecko.com/
+parameters:
+  - base
+  - vs_currency
+  - start
+  - end
+  - withDetails  
